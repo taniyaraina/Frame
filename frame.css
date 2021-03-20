@@ -33,6 +33,7 @@ nav {
   background-size: cover;
   /*max-height: 780px;*/
 }
+
 .cookie-a {
   display: flex;
   justify-content: center;
@@ -45,7 +46,7 @@ a {
   color: white;
 }
 ul {
-  list-style: none;
+  list-style: none !important;
 }
 .list {
   padding: 0px 15px;
@@ -53,7 +54,6 @@ ul {
 .cookie {
   padding-top: 5rem;
 }
-
 .heading {
   font-size: 54px;
   font-weight: 300;
@@ -100,7 +100,6 @@ button {
   display: flex;
   line-height: 1.7;
   font-size: 16px;
-  padding: 8em;
 }
 .content {
   padding-right: 15px;
@@ -157,15 +156,29 @@ button {
 }
 .div-flex {
   display: flex;
-  /*padding: 120px 0;*/
-  margin-bottom: -49px;
+  /*padding: 120px 0;
+  margin-bottom: -49px;*/
   min-height: 600px;
 }
 .firsthalf-container {
   flex: 1;
 }
+.secondhalf-container {
+  flex: 1;
+}
+.flex-a {
+  margin-bottom: 30px;
+}
+.firsthalf-container-a {
+  flex: 1;
+  padding: 20px 79px;
+}
+.secondhalf-container-a {
+  flex: 2;
+  padding-right: 10px;
+}
 .center-div {
-  margin: 10px 40px;
+  /*margin: 10px 40px;*/
 }
 .image {
   width: 100%;
@@ -176,9 +189,6 @@ button {
   min-width: 570px;
 }
 
-.secondhalf-container {
-  flex: 1;
-}
 .heading-c,
 .heading-d {
   font-size: 36px;
@@ -213,9 +223,34 @@ button {
 .box {
   flex: 1;
   border: 1px solid #ebebeb;
-  padding: 20px 20px;
-  min-height: 550px;
+  padding: 38px 20px;
+  min-height: 450px;
   margin: 10px 10px;
+}
+.box h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #000;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.dollar {
+  font-size: 62px;
+  font-weight: 300;
+  color: #1a57a5;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.month {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.box-a {
+  box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.15);
+}
+.common {
+  text-align: center;
 }
 .payment {
   display: flex;
