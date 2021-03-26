@@ -259,12 +259,123 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
+  nav {
+    background: white;
+    padding: 0;
+  }
+  .container {
+    margin-left: 15px;
+  }
+  .frame {
+    color: #1a57a5 !important;
+    line-height: 0;
+    padding-left: 0;
+  }
+  .logo {
+    color: #1a57a5 !important;
+  }
   .heading {
-    font-size: 36px;
+    font-size: 38px;
+  }
+  .button-a,
+  .button-b {
+    padding: 20px 106px;
   }
   .paragraph {
     display: block;
     text-align: center;
+  }
+  .section-a,
+  .div-flex,
+  .payment,
+  .blog,
+  .light-blog {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-a {
+    padding: 50px 15px !important;
+  }
+  .heading-1 {
+    padding: 23px !important;
+  }
+  .heading-b {
+    font-size: 37px !important;
+  }
+  .heading-c,
+  .par-graph,
+  .unordered-list {
+    margin: 0 !important;
+  }
+  .heading-c,
+  .heading-d {
+    text-align: start !important;
+  }
+  .par-graph {
+    padding-bottom: 30px;
+  }
+  .unordered-list,
+  .unordered-list-1 {
+    padding-left: 15px !important ;
+  }
+  .heading-c,
+  .heading-d {
+    font-size: 23px !important;
+  }
+  .firsthalf-container {
+    display: flex;
+    justify-content: center !important;
+  }
+  .secondhalf-container {
+    padding-bottom: 6rem;
+  }
+  .flex-a {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firsthalf-container-a {
+    padding: 20px 10px;
+  }
+  .secondhalf-container-a {
+    /* padding-right: 10px; */
+    display: flex;
+    justify-content: center;
+  }
+  .head {
+    padding-left: 2px !important;
+  }
+  .image {
+    min-height: 0 !important;
+    width: 90% !important;
+  }
+  .img {
+    min-width: 0 !important;
+  }
+  .blog {
+    height: 45% !important;
+  }
+  .blog-1 {
+    margin-right: 0 !important;
+    flex: 0 !important;
+    margin: 18px !important;
+    padding: 20px 15px !important;
+  }
+  .par-blue {
+    padding-left: 20px !important;
+  }
+  .blog-3 {
+    margin: 60px 27px !important;
+  }
+  .img-circle {
+    height: 11% !important;
+  }
+  .line-1,
+  .line-a {
+    margin: 0 41% !important;
+  }
+  .two {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
   }
 }
 
@@ -376,13 +487,13 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 61%;
+  max-width: 71%;
   text-align: center;
 }
 .two {
   font-weight: 500;
   font-size: 30px;
-  line-height: 0.1;
+  /* line-height: 0.1; */
 }
 .par-blue {
   color: rgba(255, 255, 255, 0.7);
